@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            background-color: rgb(255, 0, 0);
+            transition-property: background-color, height, width;
+            transition-duration: 3s;
+            transition-timing-function: 1;
+        }
+
+        .container:hover {
+            background-color: rgb(21, 255, 0);
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+</body>
+
+</html>

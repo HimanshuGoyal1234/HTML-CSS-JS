@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            justify-content: center;
+            height: 716px;
+            background-color: rgb(255, 255, 255); 
+
+        }
+
+        .tre {
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            justify-content: center;
+            height: 276px;
+            width: 328px;
+            margin-top: left;
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 3px 3px 30px;
+        }
+
+        .tre a {
+            cursor: default;
+        }
+
+        #emial {
+            margin-bottom: 48px;
+            margin-left: 40px;
+            background-color: rgb(203, 203, 203);
+            cursor: default;
+        }
+
+        #emial:hover {
+            margin-bottom: 48px;
+            margin-left: 40px;
+            background-color: rgb(188, 188, 188);
+        }
+
+        #passward {
+            margin-bottom: 61px;
+            margin-left: 20px;
+            background-color: rgb(255, 255, 255);
+            cursor: default;
+        }
+
+        #passward:hover {
+            margin-bottom: 61px;
+            margin-left: 20px;            
+            background-color: rgb(207, 207, 207);
+
+        }
+
+        #submit {
+            padding-left: 19px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid black;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-right: 19px;
+            border-radius: 4px;
+        }
+
+        #submit:hover {
+            padding-left: 19px;
+            background-color: rgb(232, 232, 232);
+            border: 2px solid black;
+            border-radius: 4px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-right: 19px;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="container">
+        <div class="tre">
+            <a>Email <input type="email" name="email" id="emial"></a>
+            <a id="re">Password<input type="password" class="tes" name="password" id="passward"></a>
+            <input type="button" class="tes" id="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

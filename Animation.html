@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        h1 {
+            display: inline;
+            background-color: green;
+            justify-content: center;
+            display: flex;
+            cursor: default;
+            animation-name: harry;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        #er {
+            border: 2px solid black;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            background-color: green;
+            position: relative;
+            animation-name: harry;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;        
+        }
+        @keyframes harry {
+            0% {
+                left: 0px;
+            }
+            25% {
+                left: 200px;
+                top: 0px;
+            }
+            50% {
+                left: 200px;
+                top: 200px;
+            }
+            75% {
+                left: 0px;
+                top: 200px;
+            }
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="er">
+        <a>Hello</a>
+    </div>
+</body>
+
+</html>
